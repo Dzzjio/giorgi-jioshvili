@@ -25,20 +25,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-@font-face {
-	font-display: block;
-	font-family: wf_f52303b2efea42e1b4aeed119;
-	src: url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/woff2/file.woff2") format("woff2"), url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/woff/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/ttf/file.ttf") format("ttf");
-}
-
-@font-face {
-   font-display: block;
-   font-family: 'wf_dd28b3957391427eb54de1c9e';
-   src: url('https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff2/file.woff2') format('woff2'),
-        url('https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff/file.woff') format('woff'),
-        url('https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/ttf/file.ttf') format('ttf');
-}
-
 body {
    background-color: var(--bg-dark);
    color: var(--white);
