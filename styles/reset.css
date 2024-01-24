@@ -28,12 +28,9 @@ footer, header, hgroup, menu, nav, section {
 body {
    background-color: var(--bg-dark);
    color: var(--white);
-   font-family: 'wf_dd28b3957391427eb54de1c9e', sans-serif;
+   font-family: main;
 }
 
-h3 {
-	font-family: wf_f52303b2efea42e1b4aeed119;
-}
 
 ol, ul {
 	list-style: none;

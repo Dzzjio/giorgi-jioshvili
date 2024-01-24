@@ -1,23 +1,17 @@
 @font-face {
    font-display: block;
-   font-family: wf_93c16d86ec9d47d0a2a36894f;
-   src: url("https://static.wixstatic.com/ufonts/643d94_93c16d86ec9d47d0a2a36894fbdd54fd/woff2/file.woff2") format("woff2"), url("https://static.wixstatic.com/ufonts/643d94_93c16d86ec9d47d0a2a36894fbdd54fd/woff/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/643d94_93c16d86ec9d47d0a2a36894fbdd54fd/ttf/file.ttf") format("ttf");
-}
-
-@font-face {
-   font-display: block;
-   font-family: wf_f52303b2efea42e1b4aeed119;
+   font-family: heading_bold;
    src: url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/woff2/file.woff2") format("woff2"), url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/woff/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/ttf/file.ttf") format("ttf");
 }
 
 @font-face {
    font-display: block;
-   font-family: wf_dd28b3957391427eb54de1c9e;
+   font-family: main;
    src: url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff2/file.woff2") format("woff2"), url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/ttf/file.ttf") format("ttf");
 }
 
 @font-face {
    font-display: block;
-   font-family: wf_7737b5e7be24426aa35c9f431;
+   font-family: blue_link;
    src: url("https://static.wixstatic.com/ufonts/dd97f4_7737b5e7be24426aa35c9f4311c1de96/woff2/file.woff2") format("woff2"), url("https://static.wixstatic.com/ufonts/dd97f4_7737b5e7be24426aa35c9f4311c1de96/woff/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/dd97f4_7737b5e7be24426aa35c9f4311c1de96/ttf/file.ttf") format("ttf");
 }
