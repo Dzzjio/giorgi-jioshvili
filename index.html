@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>TBC x USAID</title>
-</head>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TBC x USAID</title>
+      <link rel="stylesheet" href="styles/reset.css">
+      <link rel="stylesheet" href="styles/variables.css">
+      <link rel="stylesheet" href="styles/header.css">
+      <link rel="stylesheet" href="styles/heading.css">
+      <link rel="stylesheet" href="styles/info.css">
+      <link rel="stylesheet" href="styles/courses.css">
+      <link rel="stylesheet" href="styles/slider.css">
+      <link rel="stylesheet" href="styles/faq.css">
+      <link rel="stylesheet" href="styles/footer.css">
+   </head>
 <body>
-   
+   <header>
+      <div class="header-content">
+         <img id="logo" src="img/logo.svg" alt="logo">
+         <nav>
+            <div id="burger-icon" onclick="toggleBurgerIcon()">
+               <div class="burger-icon-parts"></div>
+               <div class="burger-icon-parts"></div>
+               <div class="burger-icon-parts"></div>
+            </div>
+            
+            <div id="side-menu">
+               <ul id="nav-links">
+                  <li><a href="#">მთავარი</a></li>
+                  <li><a href="#">TBC IT</a></li>
+                  <li><a class="main-blue" href="#">TBC x USAID</a></li>
+                  <li><a href="#">რისკები</a></li>
+               </ul>
+            </div>
+
+            <ul id="desktop-nav-links">
+               <li><a href="#">მთავარი</a></li>
+               <li><a href="#">TBC IT</a></li>
+               <li><a class="main-blue" href="#">TBC x USAID</a></li>
+               <li><a href="#">რისკები</a></li>
+            </ul>
+
+          </nav>
+      </div>
+   </header>
+
+
+   <script src="js/header.js"></script>
+   <script src="js/coursesData.js"></script>
+   <script src="js/slider.js"></script>
+   <script src="js/faq.js"></script>
 </body>
 </html>
