@@ -1,0 +1,39 @@
+.info-section {
+   background-color: var(--bg-light);
+}
+
+.info-section-container {
+   width: 280px;
+   max-width: 980px;
+   margin: 0px auto;
+   height: 100%;
+}
+
+.info-section-container p {
+   font-size: 16px;
+   padding: 25px 0 40px 0;
+}
+
+.info-section-container:last-child {
+   padding: 25px 0 40px 0;
+   
+}
+
+@media screen and (min-width: 781px) {
+   .info-section-container {
+      width: 980px;
+      max-width: 100%;
+      padding: 120px 0;
+   }
+
+   .info-section-container p {
+      padding: 130px 0 40px 0;
+      font-size: 28px;      
+   }
+
+   .info-section-container:last-child {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 35px 0 40px 0;
+   }
+}
