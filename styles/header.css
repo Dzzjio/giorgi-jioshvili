@@ -6,7 +6,6 @@ header {
 .header-content {
    height: 69px;
    max-width: 980px;
-   padding: 0 20px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -83,6 +82,7 @@ header {
 
 #nav-links a:hover {
    color: var(--main-blue);
+   transition: all .3s ease-in-out;
 }
 
 .grey {
@@ -95,10 +95,17 @@ nav {
 
 #desktop-nav-links {
    display: none;
+   margin-right: -4px;
+   margin-top: -3px;
+}
+
+#desktop-nav-links a:hover {
+   color: var(--main-blue);
+   transition: all .3s ease-in-out;
 }
 
 #desktop-nav-links li a {
-   margin: 0 15px;
+   margin: 0 19px;
    font-size: 14px;
 }
 
@@ -110,7 +117,6 @@ nav {
    #burger-icon {
      display: none;
    }
-
    #desktop-nav-links {
      display: flex;
      gap: 10px;
@@ -118,14 +124,11 @@ nav {
    header {
       height: 84px;
    }
-
    .header-content {
       height: 84px;
    }
-
    #logo {
       width: 182px;
       height: 40px;
    }
-
 }
