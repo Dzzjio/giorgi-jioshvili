@@ -11,7 +11,7 @@
 }
 
 .staff-img {
-   width: 320px;
+   width: 100%;
    object-fit: cover;
    object-position: 50% 50%;
 }
@@ -27,7 +27,7 @@
    left: 50%;
    transform: translate(-50%, -50%);
    font-size: 22px;
-   line-height: 1.6em;
+   line-height: 1.75em;
    min-width: 280px;
    max-width: 980px;
 }
@@ -37,8 +37,15 @@
 }
 
 @media screen and (min-width: 781px) {
+   .img-container {
+      height: auto;
+   }
    .img-container h3 {
       width: 100%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 1.85;
+      padding-bottom: 29px;
    }
    .img-container h3 span:first-child {
       font-size: 42px;
@@ -52,7 +59,7 @@
   .staff-img-wide {
    display: block;
    width: 100%;
-   object-fit: cover;
+   object-fit: contain;
    object-position: 50% 50%;
   }
 }
