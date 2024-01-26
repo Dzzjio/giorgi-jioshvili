@@ -1,4 +1,5 @@
 .heading-section {
+   margin-top: 69px;
    height: auto;
    font-family: heading_bold;
 }
@@ -37,6 +38,9 @@
 }
 
 @media screen and (min-width: 781px) {
+   .heading-section {
+      margin-top: 84px;
+   }
    .img-container {
       height: auto;
    }

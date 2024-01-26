@@ -29,6 +29,7 @@ body {
    background-color: var(--bg-dark);
    color: var(--white);
    font-family: main;
+   position: relative;
 }
 
 
