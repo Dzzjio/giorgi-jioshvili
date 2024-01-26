@@ -11,12 +11,15 @@
 
 .info-section-container p {
    font-size: 16px;
-   padding: 25px 0 40px 0;
+   line-height: 1.6;
 }
 
 .info-section-container:last-child {
    padding: 25px 0 40px 0;
-   
+}
+
+.info-section-container a.main-blue {
+   font-family: blue_link;
 }
 
 @media screen and (min-width: 781px) {
@@ -27,13 +30,12 @@
    }
 
    .info-section-container p {
-      padding: 130px 0 40px 0;
-      font-size: 28px;      
+      padding: 23px 0 40px 0;
+      font-size: 28.1px;      
    }
 
    .info-section-container:last-child {
       font-size: 20px;
-      font-weight: bold;
       padding: 35px 0 40px 0;
    }
 }
