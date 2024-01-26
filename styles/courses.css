@@ -38,12 +38,16 @@
 
 .course div h4 {
    font-size: 15px;
+   margin-top: 15px;
+   margin-bottom: -5px;
 }
 
 .course div a {
    cursor: pointer;
    display: flex;
    align-items: center;
+   font-family: blue_link;
+   padding-bottom: 30px;
 }
 
 .course div a img {
@@ -58,9 +62,18 @@
    }
    .courses-container {
       grid-template-columns: repeat(3, 1fr);
+      margin: 30px auto;
       gap: 35px;
    }
    .course {
       width: 300px;
+   }
+   .course div h4 {
+      margin-top: 20px;
+      font-size: 18px;
+   }
+   .course div a {
+      padding-top: 100px;
+      font-size: 16px;
    }
 }
