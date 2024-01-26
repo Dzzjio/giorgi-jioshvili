@@ -40,6 +40,9 @@
    font-size: 15px;
    margin-top: 15px;
    margin-bottom: -5px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .course div a {
@@ -58,7 +61,7 @@
 
 @media screen and (min-width: 781px) {
    .courses-section h6 {
-   width: 100%;
+      width: 100%;
    }
    .courses-container {
       grid-template-columns: repeat(3, 1fr);
