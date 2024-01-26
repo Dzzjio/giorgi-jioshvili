@@ -72,5 +72,9 @@
    }
    .slider-container {
       width: 100%;
+      height: 325px;
+   }
+   .slider-section h6 span {
+      font-size: 24px;
    }
 }
