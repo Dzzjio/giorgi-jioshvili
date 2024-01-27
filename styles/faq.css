@@ -2,12 +2,20 @@
    width: 270px;
    max-width: 980px;
    margin: 0 auto;
-   padding: 40px 0;
+   padding: 50px 0 0 0;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
-.faq-container div h2 {
+.faq-container h2 {
    font-size: 20px;
-   padding-bottom: 20px;
+}
+
+.faq-container a {
+   padding: 50px 0 50px 0;
 }
 
 .faq-container a > span {
@@ -22,7 +30,6 @@
 
 .single-qa {
    border-bottom: 1px solid rgb(85,85,85);
-   padding-bottom: 10px;
 }
 
 .question-container {
@@ -60,10 +67,14 @@
    .faq-container {
       width: 100%;
    }
-   .faq-container div h2 {
+   .faq-container h2 {
       font-size: 24px;
+      width: 100%;
    }
    .faq-container a > span {
       font-size: 20px;
+      position: absolute;
+      top: 50px;
+      right: 0;
    }
 }

@@ -1,4 +1,4 @@
-const qaContainer = document.querySelector('.faq-container');
+const qaContainer = document.querySelector('.faq-insert-js');
 const questionContainer = document.querySelector('.question-container')
 
 const faqs = [
