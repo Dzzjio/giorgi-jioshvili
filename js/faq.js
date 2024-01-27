@@ -57,7 +57,7 @@ faqs.forEach(QApair => {
       <div class="single-qa">
          <div class="question-container">
             <h3>${QApair.question}</h3>
-            <img class="accordion-img" src="../img/accordionArrow.svg" alt="accordion-arrow">
+            <img class="accordion-img" src="./img/accordionArrow.svg" alt="accordion-arrow">
          </div>
          <div class="answer-container">
             ${QApair.answer}
