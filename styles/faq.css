@@ -13,7 +13,12 @@
 .faq-container a > span {
    font-family: blue_link;
    color: var(--main-blue);
- }
+}
+
+.faq-container a > span:hover {
+   color: var(--link-hover);
+   transition: all .4s ease-in-out ;
+}
 
 .single-qa {
    border-bottom: 1px solid rgb(85,85,85);

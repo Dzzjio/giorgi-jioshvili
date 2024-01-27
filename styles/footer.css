@@ -44,6 +44,12 @@
    justify-content: space-between;
 }
 
+.footer-container .footer-small-container a:hover {
+   background-color: aliceblue;
+   color: black;
+   transition: all .4s ease-in-out;
+}
+
 @media screen and (min-width: 781px) {
    .footer-container {
       width: 100%;
