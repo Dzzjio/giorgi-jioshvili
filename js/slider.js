@@ -8,6 +8,7 @@ let currentTranslate = 0;
 const showSlide = (index) => {
   const slideWidth = document.querySelector('.slide').offsetWidth;
   slidesContainer.style.transform = `translateX(-${index * slideWidth}px)`;
+  
   currentSlide = index;
 }
 
