@@ -2,6 +2,11 @@
 
 ## პროექტის სტრუქტურა
 
-პროექტისთვის გამოყენებულია **HTML**, **CSS** და **JS** არანაირი ბიბლიოთეკის დახმარებით.
+პროექტისთვის გამოყენებულია <span style="color: orange;">**HTML**</span>, <span style="color: blue;">**SCC**</span> და <span style="color: yellow;">**JS**</span> არანაირი ბიბლიოთეკის დახმარებით.
+-index.html - გვერიდს მარქაფი.
+-styles ფოლდერი სადაც სათითაოდ ყველა <section> ის სტილებია და შემდეგ დაინპორტებული style.css-ში რაც html-ს <head> ში უკავშირდება. 
+-JS ფოლდერში განთავსებულია 4 ფაილი header.js courseData.js, slider.js, faq.js.
+-img ფოლდერში განთავსებულია ყველა ის ფოტო რომელიც [tbc](https://www.tbcacademy.ge/usaid)https://www.tbcacademy.ge/usaid გვერდის ასაწყობად დამჭირდა.
 
-![html]([img/html.png](https://cdn-icons-png.flaticon.com/512/732/732212.png)https://cdn-icons-png.flaticon.com/512/732/732212.png)
+
+
