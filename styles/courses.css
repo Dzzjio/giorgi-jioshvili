@@ -12,7 +12,6 @@
    place-items: center;
    grid-template-columns: repeat(1, 1fr);
    gap: 25px;
-   max-width: 980px;
    margin: 20px auto;
 }
 
@@ -59,6 +58,10 @@
 }
 
 @media screen and (min-width: 480px) {
+   .courses-section-container {
+      max-width: 350px;
+      width: 100%;
+   }
    .courses-section h6 {
       max-width: 350px;
       width: 100%;
@@ -66,6 +69,27 @@
 }
 
 @media screen and (min-width: 768px) {
+   .courses-section-container {
+      max-width: 550px;
+      width: 100%;
+   }
+   .course {
+      border: 1px solid rgb(85,85,85);
+      border-radius: 6px;
+      overflow: hidden;
+   }
+   .courses-section h6 {
+      max-width: 550px;
+      width: 100%;
+   }
+   .courses-container {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 30px auto;
+      gap: 35px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
    .courses-section h6 {
       max-width: 980px;
       width: 100%;
@@ -74,9 +98,7 @@
       grid-template-columns: repeat(3, 1fr);
       margin: 30px auto;
       gap: 35px;
-   }
-   .course {
-      width: 300px;
+      max-width: 980px;
    }
    .course div h4 {
       margin-top: 20px;

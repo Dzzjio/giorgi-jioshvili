@@ -141,9 +141,16 @@ nav {
       max-width: 350px;
       width: 100%;
    }
-}
+}  
 
 @media screen and (min-width: 768px) {
+   .header-content {
+      max-width: 550px;
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 1024px) {
    #burger-icon {
      display: none;
    }

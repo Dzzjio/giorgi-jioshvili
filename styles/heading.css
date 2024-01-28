@@ -65,6 +65,23 @@
 }
 
 @media screen and (min-width: 768px) {
+   .img-container h3 {
+      max-width: 550px;
+      width: 100%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 1.85;
+      padding-bottom: 29px;
+   }
+   .img-container h3 span:first-child {
+      font-size: 40px;
+   }
+   .img-container h3 span:last-child {
+      font-size: 31px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
    .heading-section {
       margin-top: 84px;
    }
@@ -72,8 +89,7 @@
       height: auto;
    }
    .img-container h3 {
-      
-   max-width: 980px;
+      max-width: 980px;
       width: 100%;
       top: 50%;
       transform: translate(-50%, -50%);
