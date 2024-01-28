@@ -64,12 +64,18 @@
    display: none;
 }
 
+.slider-arr img svg {
+   cursor: pointer;
+   fill: aqua;
+}
+
 @media screen and (min-width: 768px) {
    .slider-section h6{
       max-width: 550px;
       width: 100%;
       font-size: 22px;
-   } 
+   }
+
 }
 
 @media screen and (min-width: 1024px) {
