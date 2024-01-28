@@ -5,7 +5,6 @@
 
 .footer-container {
    width: 247px;
-   max-width: 980px;
    margin: 0 auto;
 }
 
@@ -48,8 +47,16 @@
    transition: all .4s ease-in-out;
 }
 
+@media screen and (min-width: 480px) {
+   .footer-container {
+      max-width: 350px;
+      width: 100%;
+   }
+}
+
 @media screen and (min-width: 768px) {
    .footer-container {
+      max-width: 980px;
       width: 100%;
       position: relative;
    }

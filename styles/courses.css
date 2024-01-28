@@ -1,6 +1,5 @@
-.courses-section h6{
+.courses-section h6 {
    width: 280px;
-   max-width: 980px;
    margin: 0 auto;
    font-size: 24px;
    padding-top: 20px;
@@ -59,8 +58,16 @@
    margin-right: 10px;
 }
 
+@media screen and (min-width: 480px) {
+   .courses-section h6 {
+      max-width: 350px;
+      width: 100%;
+   }
+}
+
 @media screen and (min-width: 768px) {
    .courses-section h6 {
+      max-width: 980px;
       width: 100%;
    }
    .courses-container {

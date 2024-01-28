@@ -31,7 +31,6 @@
    font-size: 22px;
    line-height: 1.75em;
    min-width: 280px;
-   max-width: 980px;
 }
 
 .img-container h3 span:first-child {
@@ -49,6 +48,20 @@
       object-fit: cover;
       object-position: 50% 50%;
      }
+     .img-container h3 {
+      max-width: 350px;
+      width: 100%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 1.85;
+      padding-bottom: 29px;
+   }
+   .img-container h3 span:first-child {
+      font-size: 35px;
+   }
+   .img-container h3 span:last-child {
+      font-size: 27px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -59,6 +72,8 @@
       height: auto;
    }
    .img-container h3 {
+      
+   max-width: 980px;
       width: 100%;
       top: 50%;
       transform: translate(-50%, -50%);

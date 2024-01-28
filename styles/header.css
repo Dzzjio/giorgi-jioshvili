@@ -15,7 +15,6 @@ header.transparent {
 .header-content {
    height: 69px;
    width: 280px;
-   max-width: 980px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -137,6 +136,13 @@ nav {
    display: block;
 }
 
+@media screen and (min-width: 480px) {
+   .header-content {
+      max-width: 350px;
+      width: 100%;
+   }
+}
+
 @media screen and (min-width: 768px) {
    #burger-icon {
      display: none;
@@ -150,6 +156,7 @@ nav {
    }
    .header-content {
       height: 84px;
+      max-width: 980px;
       width: 100%;
    }
    #logo {

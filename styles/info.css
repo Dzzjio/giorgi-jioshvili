@@ -27,6 +27,17 @@
    transition: all .4s ease-in-out ;
 }
 
+@media screen and (min-width: 480px) {
+   .info-section-container {
+      max-width: 350px;
+      width: 100%;
+   }
+   .info-section-container p {
+      padding: 15px 0 30px 0;
+      font-size: 20px;      
+   }
+}
+
 @media screen and (min-width: 768px) {
    .info-section-container {
       width: 980px;
