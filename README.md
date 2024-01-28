@@ -12,7 +12,7 @@
 
 ## ინსტრუქცია პროექტის გაშვების
 
-1. დაკლონეთ [რეპოზიტორი](https://github.com/Dzzjio/TBC-USAID.git).<br>
+1. დაკლონეთ [რეპოზიტორი](https://github.com/Dzzjio/giorgi-jioshvili.git).<br>
     `git clone https://github.com/Dzzjio/TBC-USAID.git`
 2. გადადით ფოლდერის მისამართზე.<br>
     `cd TBC-USAID`
