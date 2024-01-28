@@ -61,20 +61,45 @@
    background-color: #555;
 }
 
+.slider-arr {
+   display: none;
+}
 
 @media screen and (min-width: 781px) {
+   .slides {
+      margin-top: 50px;
+   }
    .slide {
       flex-direction: row;
+   }
+   .slider-section {
+      position: relative;
    }
    .slider-section h6{
       width: 100%;
       font-size: 24px;
-   }
+   }  
    .slider-container {
       width: 100%;
       height: 325px;
    }
    .slider-section h6 span {
       font-size: 24px;
+   }
+   .slider-arr {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      position: absolute;
+      top: 50%;
+      left: 0;
+   }
+   .slider-arr img {
+      width: 18px;
+      height: 35px;
+      margin: 0 100px;
+   }
+   .next-arrow {
+      transform: rotate(180deg);
    }
 }
