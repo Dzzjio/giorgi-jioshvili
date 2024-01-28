@@ -27,7 +27,7 @@
    transition: all .4s ease-in-out ;
 }
 
-@media screen and (min-width: 781px) {
+@media screen and (min-width: 768px) {
    .info-section-container {
       width: 980px;
       max-width: 100%;
