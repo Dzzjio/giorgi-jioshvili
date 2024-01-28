@@ -136,6 +136,10 @@ nav {
    display: block;
 }
 
+.hide-header {
+   top: -69px;
+}
+
 @media screen and (min-width: 480px) {
    .header-content {
       max-width: 350px;

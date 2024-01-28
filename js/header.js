@@ -29,7 +29,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
    window.addEventListener('scroll', () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-
+      const isSmallScreen = window.innerWidth <= 768; // Adjust the breakpoint as needed
+   
+      if (isSmallScreen) {
+         if (scrollTop > lastScrollTop && !header.classList.contains('hide-header')) {
+            // Scrolling down, hide header
+            header.classList.add('hide-header');
+         } else if (scrollTop < lastScrollTop || scrollTop <= 0) {
+            // Scrolling up or at the top, show header
+            header.classList.remove('hide-header');
+         }
+      }
+   
       if (scrollTop > lastScrollTop && !header.classList.contains('transparent')) {
          // Scrolling down, make header transparent
          header.classList.add('transparent');
@@ -37,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
          // At the top, remove transparency
          header.classList.remove('transparent');
       }
-
+   
       lastScrollTop = scrollTop;
    });
 });

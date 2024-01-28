@@ -64,9 +64,8 @@
    display: none;
 }
 
-.slider-arr img svg {
+.slider-arr img {
    cursor: pointer;
-   fill: aqua;
 }
 
 @media screen and (min-width: 768px) {
